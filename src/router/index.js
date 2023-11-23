@@ -1,15 +1,15 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Layout from '@/views/LayOut/LayOut.vue'
 import Article from '@/views/Article/Article.vue'
 import Home from '@/views/Home/Home.vue'
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path:'/',redirect:'/MyBlog/Home'
+      path:'/',redirect:'/MyPage'
     },
     {
-      path:'/MyBlog/Home',components:{
+      path:'/MyPage',components:{
         default:Layout,
         Home:Home
       }
