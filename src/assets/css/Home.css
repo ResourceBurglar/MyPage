@@ -1,0 +1,21 @@
+.default-theme h1{
+    font-size:3em;
+}
+.default-theme h1,.default-theme h2,.default-theme h3,.default-theme h4,.default-theme h5,.default-theme h6{
+    margin:0.5em 0 .2em;
+    position: relative;
+    word-break: break-all;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 4px solid rgb(161, 73, 243);
+}
+.default-theme pre, .default-theme code {
+    font-size: 25px;
+}
+ p {
+    font-size: 25px;
+}
+.default-theme code {
+    padding: 0 5px;
+    line-height: 30px;
+}

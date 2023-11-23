@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li:hover {
+    cursor: pointer;
+}
+body {
+    max-width: 1800px;
+    margin: 0 auto;
+    /* 去除移动设备上点击元素的蓝色边框 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input {
+    outline: none;
+    border:none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.md-editor {
+    --md-bk-color:rgba(255,255,255,0) !important;
+  }
+
+.md-editor-catalog-active {
+    /* border-left: 1px solid black; */
+    /* border: 1px solid black; */
+    width: 100%;
+    
+}
+.md-editor-catalog-active>span {
+    font-size: 1.3rem;
+    display: block;
+    padding-left: 20px;
+    /* border: 1px solid black; */
+    border-left: 4px solid rgb(192, 192, 192);
+    color: rgb(56, 56, 56);
+    white-space: normal;
+}
+.md-editor-catalog-active>span:hover {
+    border-left: 4px solid rgb(70, 157, 255);
+    color: rgb(73, 70, 255);
+}
+.md-editor-catalog>.md-editor-catalog-link {
+    padding: 8px 0px;
+    /* border-left: 1px solid pink; */
+}
+.default-theme h2 {
+    font-size: 1.5rem;
+}
