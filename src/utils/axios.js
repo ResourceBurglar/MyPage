@@ -1,6 +1,6 @@
 import axios from 'axios'
 const instance = axios.create({
-    baseURL: 'http://127.0.0.1:8088',
+    baseURL: 'http://8.134.236.195:8088',
     timeout: 1000,
     headers:{'content-type': 'application/x-www-form-urlencoded'}
   });
